@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -18,6 +19,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 ul {
