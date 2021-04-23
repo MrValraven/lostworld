@@ -1,9 +1,12 @@
 <template>
-    <li class="card">
-        <img :src="icon" alt="">
-		<h1 class="quote"> {{ title }} </h1>
-		<p class="author"> {{ description }} </p>
-	</li>
+    <router-link  class="card" to="/">
+        <li>
+            <img :src="icon" alt="">
+            <h1 class="quote"> {{ title }} </h1>
+            <p class="author"> {{ description }} </p>
+	    </li>
+    </router-link>
+    
 </template>
 
 <script lang="ts">
@@ -24,17 +27,13 @@ $textColor: #774fd4;
 $textColor1: #d1c1f8;
 $backgroundColor: #1c0f22;
 .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 	padding: 20px;
 	margin: 10px 20px 10px 10px;
     width: 350px;
     height: 300px;
     border-radius: 20px;
     z-index: 120;
+    border: 2px solid $textColor;
     background-color: $backgroundColor;
     box-shadow: -7px -7px 20px 0px rgba(0, 0, 0, 0.6),
             -4px -4px 5px 0px rgba(0, 0, 0, 0.6),
@@ -44,6 +43,19 @@ $backgroundColor: #1c0f22;
             inset 0px 0px 0px 0px #0001,
             inset 0px 0px 0px 0px rgba(17, 17, 17, 0.6),
             inset 0px 0px 0px 0px #0001;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     img {
         height: 100px;
@@ -52,7 +64,6 @@ $backgroundColor: #1c0f22;
         z-index: 120;
     }
     h1 {
-        color: #555;
         font-size: 20px;
         margin-bottom: 25px;
         z-index: 120;

@@ -9,6 +9,7 @@
 @import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
 
 #app {
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,8 +24,14 @@ body {
   overflow-x: hidden;
 }
 
-ul {
+ul,
+li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 </style>
