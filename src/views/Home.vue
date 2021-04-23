@@ -28,6 +28,7 @@
     </div>
     <div class="message">
       <h1>It's <span>dangerous</span> to go alone!</h1>
+      <p>As the wise sorceress Beatrix once said: NEVER split the party.</p>
       <p>The story of the lone adventurer is a thing of the past. Bring your friends on this brand new adventure and fight through the fiercest of enemies!</p>
       <div class="classes">
         <img src="@/assets/skill1.svg" alt="">
@@ -238,22 +239,41 @@ header {
     h1 {
       font-size: 54px;
       color: darken($color: $textColor, $amount: 15%);
-    }
 
-    span {
-        width: 1em;
-        word-break: break-all;
+      span {
+        transition: all 0.1s ease-out;
+        
+
 
         &:hover {
-          width: 1em;
+          font-size: 50px;
+          text-transform: uppercase;
+          color: red;
+          border-bottom: 5px solid red;
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+          animation:  2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+          from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+          }
+          to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+          }
         }
       }
+      
+      
+      
+    }
 
     p {
       width: 80%;
       font-size: $textSize;
-      margin-bottom: 50px;
+      margin-bottom: 10px;
       color: $textColor;
+
     }
 
     .classes {
@@ -261,6 +281,7 @@ header {
       justify-content: center;
       align-items: center;
       width: 80%;
+      margin-top: 50px;
 
       img {
         width: 100px;

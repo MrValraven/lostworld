@@ -22,6 +22,19 @@ body {
   box-sizing: border-box;
   max-width: 100%;
   overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #1c0f22;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d1c1f8;
+    border-radius: 5px;
+  }
 }
 
 ul,
