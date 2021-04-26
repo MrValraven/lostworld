@@ -22,7 +22,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
   overflow-x: hidden;
-  cursor: url("./assets/sword1.svg"), auto;
+  cursor: url("./assets/swordCursor.svg"), auto;
 
   &::-webkit-scrollbar {
     width: 0.5rem;

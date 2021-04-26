@@ -5,10 +5,10 @@
         <h1 class="lostworld">Lost World</h1>
       </div>
       <ul>
-        <li>Home</li>
-        <li>Shop</li>
-        <li>About us</li>
-        <li>Contacts</li>
+        <router-link to="/"><li>Home</li></router-link>
+        <router-link to="/store"><li>Shop</li></router-link>
+        <router-link to="/store"><li>About us</li></router-link>
+        <router-link to="/store"><li>Contacts</li></router-link>
       </ul>
     </nav>
   </header>
@@ -23,11 +23,11 @@
     </div>
   </section>
   <section class="advice">
-    <div class="knight">
+    <div class="sorceress">
       <svg width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" id="Sorceress" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M332.035,185.986l-1.857,83.622c0,0-3.209,69.505-67.393,55.611c0,0-18.094-50.678,3.561-149.647  L332.035,185.986z" fill="#AD3A4C"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="235.8325" x2="235.8325" y1="403.4248" y2="217.3378"><stop offset="0.0051" style="stop-color:#FFC3B0"/><stop offset="1" style="stop-color:#E8897B"/></linearGradient><path d="M264.312,275.599c0,0-10.159,44.874,16.511,57.087c3.291,1.508,6.893,2.15,10.508,2.324  c11.192,0.541,46.888,5.813,39.775,51.416c0,0-16.579,30.182-93.637,37.604c0,0-67.163,0.494-97.838-46.509  c0,0,9.896-44.528,39.086-46.509c0,0,15.747-0.254,27.496-5.312c6.463-2.782,10.889-8.88,11.784-15.858l7.229-56.393  L264.312,275.599z" fill="url(#SVGID_1_)"/><path d="M225.225,253.449l-4.156,32.42l50.077,39.35l0,0c-14.157-17.23-6.834-49.62-6.834-49.62L225.225,253.449z" fill="#E8897B"/><path d="M331.105,386.426c6.946-44.54-26.93-50.604-38.94-51.367c9.979,6.878,28.206,24.971,25.696,64.297  C327.92,392.221,331.105,386.426,331.105,386.426z" fill="#E8897B"/><path d="M237.508,400.503c3.454,2.633,11.106,9.95,11.834,23.526h12.727c0,0-3.779-17.502,5.308-27.395  c0.37-0.402-0.052-1.019-0.555-0.806c-3.38,1.428-9.567,6.645-12.796,12.179c0,0-5.037-6.886-16.118-8.414  C237.392,399.523,237.094,400.188,237.508,400.503z" fill="#E8897B"/><path d="M244.032,348.23c-3.263,0-30.328-2.457-39.429-24.162c-0.755-1.801,0.2-3.878,2.068-4.444l0,0  c1.582-0.479,3.293,0.296,3.926,1.821c7.892,19.029,32.661,20.233,33.676,20.242c16.426-0.002,24.839-11.595,27.738-16.691  c0.769-1.352,2.398-1.938,3.865-1.428l0,0c1.92,0.667,2.779,2.906,1.765,4.668c-3.755,6.518-13.874,19.991-33.255,19.991  C244.375,348.228,244.252,348.23,244.032,348.23z" fill="#333345"/><path d="M186.552,157.085l-5.729,32.789c0,0-40.838-1.018-87.406,12.746c0,0-86.976,27.643-81.134-62.913  L186.552,157.085z" fill="#6D4D7A"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="272.7012" x2="272.7012" y1="277.0254" y2="145.3401"><stop offset="0.0051" style="stop-color:#FFC3B0"/><stop offset="1" style="stop-color:#E8897B"/></linearGradient><path d="M317.518,184.886l-2.287,77.795c-0.023,0.753-0.082,1.482-0.188,2.228  c-0.465,3.247-2.137,11.562-7.544,17.551c-4.511,4.995-11.561,6.832-18.16,5.511c-13.328-2.67-46.808-11.121-61.453-30.8v-88.477  L317.518,184.886z" fill="url(#SVGID_2_)"/><path d="M307.498,282.46c5.407-5.989,7.079-14.304,7.544-17.552c0.106-0.744,0.165-1.474,0.188-2.227l2.287-77.795  l-89.632-16.192v24.666c14.144,3.983,53.734,16.077,72.623,31.486c2.625,2.142,4.049,5.42,4.049,8.807v33.835  c0,0,0.239,10.556-4.74,19.873C302.724,286.405,305.393,284.791,307.498,282.46z" fill="#E8897B"/><path d="M279.479,228.54h12.941c2.038,0,3.397,2.167,2.439,3.967c-1.506,2.832-4.225,6.142-8.708,6.142  c0,0-6.386-0.102-9.192-6.28C276.146,230.581,277.516,228.54,279.479,228.54z" fill="#E8897B"/><path d="M300.855,201.438L300.855,201.438c-2.045,0-3.703-1.658-3.703-3.702v-8.048c0-2.045,1.658-3.702,3.703-3.702  l0,0c2.045,0,3.701,1.657,3.701,3.702v8.048C304.557,199.781,302.9,201.438,300.855,201.438z" :fill="eyeColor"/><path d="M281.569,178.325c0,0-4.685,35.486-44.101,52.333l-4.662,67.153c-1.855,26.728-23.141,48.64-49.911,49.73  c-1.059,0.043-2.139,0.061-3.241,0.051c-8.489-0.076-16.384-4.398-21.478-11.189l-0.025-0.033c-4.5-6.002-6.404-13.531-5.298-20.951  c1.937-12.983,6.377-34.913,16.196-57.871c3.045-7.12,4.327-14.844,4.008-22.582c-0.86-20.913-1.772-61.966,3.486-75.638  L281.569,178.325z" fill="#E25A6C"/><path d="M172.898,183.915c12.532,2.385,41.049,8.27,59.867,15.692c3.897,1.537,5.38,6.221,3.131,9.754  c-2.011,3.159-4.82,7.02-8.407,10.655c-3.488,3.534-5.361,8.347-5.12,13.307c1.224,25.126,1.184,99.261-40.439,114.233  c0.005,0.025-0.001-0.011,0.003,0.015c27.221-0.597,48.996-22.713,50.874-49.76l4.662-67.153  c39.416-16.847,44.101-52.333,44.101-52.333l-105.023-18.998C174.564,164.48,173.46,173.526,172.898,183.915z" fill="#AD3A4C"/><path d="M12.282,139.707c0,0,174.011,27.139,332.856,55.875c0,0,57.38,8.942,92.937,6.667  c2.728-0.174,5.387-0.785,7.947-1.739c13.582-5.06,54.637-24.006,53.971-67.986c0,0-67.086-16.054-174.863-6.753  c0,0,9.47-60.498-87.66-117.526c-4.065-2.387-8.854-3.279-13.466-2.307c-13.272,2.797-44.274,12.884-95.277,49.258  c0,0-6.133-5.111-14.097-9.686c-4.181-2.402-9.348-2.186-13.413,0.409c-7.478,4.772-19.974,14.18-31.09,29.336  c-2.784,3.796,1.052,8.924,5.458,7.267c6.013-2.261,13.036-4.662,18.909-6.013c4.221-0.971,8.629-0.071,12.233,2.332  c5.62,3.749,14.659,10.282,22.126,18.022c3.711,3.846,9.46,4.84,14.185,2.342c10.258-5.423,27.532-13.908,37.113-15.014  l14.771,19.55c0,0-11.489,15.463-19.148,31.329C175.775,135.07,104.278,143.797,12.282,139.707z" fill="#936FA0"/><path d="M153.073,94.126c9.37-4.539,20.197-9.142,27.079-9.936l-8.426-13.643c-1.262-2.043-4.29-1.861-5.27,0.332  C163.963,76.452,159.414,85.587,153.073,94.126z" fill="#6D4D7A"/><path d="M283.057,117.354c0.392,4.614-1.318,9.158-4.717,12.304c-2.109,1.953-4.664,4.243-7.283,6.418  c-2.529,2.1-1.135,6.201,2.152,6.266c20.108,0.397,64.033,1.716,84.746,5.859c0,0,24.668,5.432,32.748,22.515  c2.109,4.457,1.796,9.663-0.937,13.768c-2.988,4.49-8.44,10.469-17.772,14.606c19.664,2.211,46.259,4.429,66.081,3.16  c2.727-0.174,5.386-0.785,7.946-1.739c13.582-5.06,54.637-24.006,53.971-67.986c0,0-67.086-16.054-174.863-6.753  c0,0,9.47-60.498-87.66-117.526C237.469,8.244,277.012,46.041,283.057,117.354z" fill="#6D4D7A"/><path d="M266.346,352.891c0-10.183-8.255-18.438-18.438-18.438c-10.184,0-18.439,8.255-18.439,18.438  c0,8.19,5.345,15.125,12.732,17.528l0.755,7.493c0.218,2.163,2.148,3.74,4.312,3.521l7.535-0.758  c2.163-0.219,3.741-2.148,3.522-4.313l-0.783-7.773C262.817,365.346,266.346,359.537,266.346,352.891z" fill="#FFFFFF"/><circle cx="242.16" cy="354.202" :fill="eyeColor" r="4.847"/><circle cx="256.217" cy="352.418" :fill="eyeColor" r="4.848"/><path d="M131.625,374.967c1.907-3.83,6.914-4.783,10.069-1.895c15.827,14.494,61.072,50.188,114.446,41.061  c0,0,47.018-7.504,75.164-34.186c2.434-2.308,6.328-1.795,8.088,1.059c2.707,4.387,6.959,10.426,12.391,15.395  c2.32,2.121,3.355,5.303,2.572,8.346c-0.734,2.858-1.988,6.484-4.094,9.932c-2.146,3.514-3.244,7.547-2.766,11.636  c1.795,15.358,2.531,52.411-29.979,62.53c0,0-23.425,4.805-41.422-5.698c-2.433-1.419-5.239-2.064-8.045-1.831l0,0  c-4.133,0.346-7.854,2.538-10.215,5.947c-5.715,8.251-20.572,22.713-52.896,18.403c0,0-39.157-3.601-41.918-44.284  c-0.371-5.463-1.828-10.783-4.549-15.533c-4.855-8.475-14.186-20.828-30.239-28.846c-6.438-3.215-9.316-10.818-6.955-17.617  C123.499,392.996,126.82,384.619,131.625,374.967z" fill="#936FA0"/><path d="M244.528,441.429c-1.563-1.614-3.703-2.51-5.949-2.51c-3.847,0-7.154,2.667-8.066,6.403  c-11.14,45.638-39.812,48.133-55.107,45.908c12.4,12.848,29.534,14.435,29.534,14.435c32.325,4.31,47.182-10.152,52.896-18.403  C261.099,461.883,249.909,446.984,244.528,441.429z" fill="#6D4D7A"/><path d="M282.291,486.092c16.745,6.518,35.227,2.752,35.227,2.752c32.51-10.119,31.773-47.172,29.979-62.53  c-0.479-4.089,0.619-8.122,2.766-11.636c2.105-3.447,3.359-7.073,4.094-9.932c0.783-3.043-0.253-6.225-2.572-8.346  c-5.432-4.969-9.684-11.008-12.391-15.395c-1.76-2.854-5.654-3.366-8.088-1.059c-4.241,4.02-8.914,7.597-13.786,10.786l-0.001,0.006  C323.7,458.358,294.818,479.965,282.291,486.092z" fill="#6D4D7A"/></svg>
     </div>
     <div class="message">
-      <h1 @mouseover="eyeColor = 'red' " @mouseleave="eyeColor = '#333345' ">It's <span>dangerous</span> to go alone!</h1>
+      <h1>It's <span :class="{dangerous: isDanger}">dangerous</span> to go alone!</h1>
       <p>As the wise sorceress Giotrix once said: NEVER split the party.</p>
       <p>The story of the lone adventurer is a thing of the past. Bring your friends on this brand new adventure and fight through the fiercest of enemies!</p>
       <div class="classes">
@@ -49,6 +49,62 @@
     </div>
     <div class="featuresContent">
         <Feature v-for="feature in features" :key="feature.id" :icon="getImgURL(feature.icon)" :title="feature.subtitle" :description="feature.description" />
+    </div>
+  </section>
+  <section class="weapons">
+    <div class="bazzar">
+      <h1>Welcome adventurer!</h1>
+      <p>Explore our local bazaar in 
+        <a href="https://www.google.com/maps/place/Lost+World/@37.9563567,-8.874401,17z/data=!3m1!4b1!4m5!3m4!1s0xd1b95187e984779:0x241a04b7966018fc!8m2!3d37.9564001!4d-8.8722314" target="_blank" rel="noopener noreferrer">
+          Sines
+        </a>
+        or venture through our 
+        <router-link @mouseover="hovered = true" @mouseleave="hovered = false"  class="portal" to="/">
+            p<span v-if="!hovered">o</span>
+            <span v-if="hovered">
+              <svg width="20px" height="20px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M298.736 21.016c-99.298 0-195.928 104.647-215.83 233.736-7.074 45.887-3.493 88.68 8.512 124.787-4.082-6.407-7.92-13.09-11.467-20.034-16.516-32.335-24.627-65.378-25-96.272-11.74 36.254-8.083 82.47 14.482 126.643 27.7 54.227 81.563 91.94 139.87 97.502 5.658.725 11.447 1.108 17.364 1.108 99.298 0 195.93-104.647 215.83-233.736 9.28-60.196.23-115.072-22.133-156.506 21.625 21.867 36.56 45.786 44.617 69.496.623-30.408-14.064-65.766-44.21-95.806-33.718-33.598-77.227-50.91-114.995-50.723-2.328-.118-4.67-.197-7.04-.197zm-5.6 36.357c40.223 0 73.65 20.342 95.702 53.533 15.915 42.888 12.51 108.315.98 147.858-16.02 54.944-40.598 96.035-79.77 126.107-41.79 32.084-98.447 24.39-115.874-5.798-1.365-2.363-2.487-4.832-3.38-7.385 11.724 14.06 38.188 14.944 61.817 1.3 25.48-14.71 38.003-40.727 27.968-58.108-10.036-17.384-38.826-19.548-64.307-4.837-9.83 5.676-17.72 13.037-23.14 20.934.507-1.295 1.043-2.59 1.626-3.88-18.687 24.49-24.562 52.126-12.848 72.417 38.702 45.923 98.07 25.503 140.746-6.426 37.95-28.392 72.32-73.55 89.356-131.988 1.265-4.34 2.416-8.677 3.467-13.008-.286 2.218-.59 4.442-.934 6.678-16.807 109.02-98.412 197.396-182.272 197.396-35.644 0-65.954-15.975-87.74-42.71-26.492-48.396-15.988-142.083 4.675-185.15 26.745-55.742 66.133-122.77 134.324-116.804 46.03 4.027 63.098 58.637 39.128 116.22-8.61 20.685-21.192 39.314-36.21 54.313 24.91-16.6 46.72-42.13 59.572-73 23.97-57.583 6.94-113.422-39.13-116.805-85.737-6.296-137.638 58.55-177.542 128.485-9.21 19.9-16.182 40.35-20.977 60.707.494-7.435 1.312-14.99 2.493-22.652C127.67 145.75 209.275 57.373 293.135 57.373z"/>
+              </svg>
+            </span>rtal 
+        </router-link> and browse our great selection of weapons and magic items</p>
+      <div class="images">
+        <svg @click="getPreviousImage()" version="1.1" id="arrowLeft" width="75px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 439.454 439.454" style="enable-background:new 0 0 439.454 439.454;" xml:space="preserve">
+          <path :fill="arrowColor" d="M430.545,203.161L363.217,163.1c-8.306-4.94-19.046-2.216-23.987,6.091c-4.942,8.306-2.215,19.045,6.091,23.987
+            l15.208,9.049H127.349v-2.098c0-8.284-6.716-15-15-15c-4.449,0-8.434,1.948-11.181,5.026l-30.692-31.996
+            c-1.757-1.831-3.538-2.721-5.445-2.721c-1.71,0-3.302,0.763-4.367,2.092c-1.292,1.61-1.645,3.781-1.049,6.451l4.063,18.234
+            L40.602,158.16c-1.757-1.831-3.538-2.722-5.445-2.722c-1.71,0-3.302,0.763-4.367,2.092c-1.292,1.61-1.645,3.781-1.049,6.451
+            l4.063,18.234L10.728,158.16c-1.138-1.186-2.929-2.763-5.348-2.763c-1.756,0-3.397,0.858-4.391,2.296
+            c-1.809,2.618-0.669,5.631-0.24,6.765l20.835,55.142c0.016,0.043,0.038,0.085,0.055,0.128c-0.017,0.043-0.038,0.084-0.054,0.126
+            L0.75,274.996c-0.429,1.135-1.568,4.147,0.24,6.765c0.993,1.438,2.634,2.296,4.391,2.297c2.419,0,4.21-1.577,5.348-2.763
+            l23.076-24.056l-4.063,18.235c-0.596,2.67-0.243,4.84,1.049,6.451c1.064,1.329,2.656,2.092,4.366,2.092c0.001,0,0.001,0,0.001,0
+            c1.907,0,3.688-0.891,5.445-2.722l23.076-24.056l-4.063,18.235c-0.596,2.67-0.243,4.84,1.049,6.451
+            c1.064,1.329,2.656,2.092,4.367,2.092c1.907,0,3.688-0.89,5.446-2.722l30.691-31.995c2.747,3.077,6.732,5.025,11.181,5.025
+            c8.284,0,15-6.716,15-15v-2.098h232.446l-14.799,9.247c-8.197,5.121-10.69,15.917-5.568,24.113c3.319,5.313,9.022,8.23,14.857,8.229
+            c3.167,0,6.373-0.859,9.256-2.661l67.34-42.073c5.437-3.396,8.642-9.212,8.572-15.556
+            C439.385,212.183,436.054,206.439,430.545,203.161z"/>
+        </svg>
+        <img :src="getImgURL(images[imageIndex].imgUrl)" alt="">
+        <svg @click="getNextImage()" version="1.1" id="arrowRight" width="75px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 439.454 439.454" style="enable-background:new 0 0 439.454 439.454;" xml:space="preserve">
+          <path :fill="arrowColor" d="M430.545,203.161L363.217,163.1c-8.306-4.94-19.046-2.216-23.987,6.091c-4.942,8.306-2.215,19.045,6.091,23.987
+            l15.208,9.049H127.349v-2.098c0-8.284-6.716-15-15-15c-4.449,0-8.434,1.948-11.181,5.026l-30.692-31.996
+            c-1.757-1.831-3.538-2.721-5.445-2.721c-1.71,0-3.302,0.763-4.367,2.092c-1.292,1.61-1.645,3.781-1.049,6.451l4.063,18.234
+            L40.602,158.16c-1.757-1.831-3.538-2.722-5.445-2.722c-1.71,0-3.302,0.763-4.367,2.092c-1.292,1.61-1.645,3.781-1.049,6.451
+            l4.063,18.234L10.728,158.16c-1.138-1.186-2.929-2.763-5.348-2.763c-1.756,0-3.397,0.858-4.391,2.296
+            c-1.809,2.618-0.669,5.631-0.24,6.765l20.835,55.142c0.016,0.043,0.038,0.085,0.055,0.128c-0.017,0.043-0.038,0.084-0.054,0.126
+            L0.75,274.996c-0.429,1.135-1.568,4.147,0.24,6.765c0.993,1.438,2.634,2.296,4.391,2.297c2.419,0,4.21-1.577,5.348-2.763
+            l23.076-24.056l-4.063,18.235c-0.596,2.67-0.243,4.84,1.049,6.451c1.064,1.329,2.656,2.092,4.366,2.092c0.001,0,0.001,0,0.001,0
+            c1.907,0,3.688-0.891,5.445-2.722l23.076-24.056l-4.063,18.235c-0.596,2.67-0.243,4.84,1.049,6.451
+            c1.064,1.329,2.656,2.092,4.367,2.092c1.907,0,3.688-0.89,5.446-2.722l30.691-31.995c2.747,3.077,6.732,5.025,11.181,5.025
+            c8.284,0,15-6.716,15-15v-2.098h232.446l-14.799,9.247c-8.197,5.121-10.69,15.917-5.568,24.113c3.319,5.313,9.022,8.23,14.857,8.229
+            c3.167,0,6.373-0.859,9.256-2.661l67.34-42.073c5.437-3.396,8.642-9.212,8.572-15.556
+            C439.385,212.183,436.054,206.439,430.545,203.161z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="knight">
+      <svg width="500px" height="500px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" id="Knight" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M397.117,261.816c0,0-19.654-9.933-42.365,53.431l39.046,40.416  C393.798,355.663,421.435,294.255,397.117,261.816z" fill="#375DAB"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="274.2451" x2="276.2507" y1="310.2207" y2="155.1373"><stop offset="0.0051" style="stop-color:#FFC3B0"/><stop offset="1" style="stop-color:#E8897B"/></linearGradient><path d="M240.722,187.892v42.194c0,9.713-2.941,19.173-8.46,27.165  c-10.207,14.782-27.984,39.321-43.904,55.241c0,0,60.152,43.199,127.96,65.62l43.748-65.073c0,0-35.745-12.578-33.458-47.576  L240.722,187.892z" fill="url(#SVGID_1_)"/><path d="M326.607,265.463l-85.886-77.571v42.194c0,0.564-0.044,1.125-0.064,1.688l102.158,106.924l17.25-25.658  C360.065,313.039,324.32,300.461,326.607,265.463z" fill="#E8897B"/><path d="M188.356,312.492c0,0,60.153,43.199,127.961,65.62l43.748-65.073c0,0-11.502-4.056-21.04-13.949  c-2.05,4.731-5.02,8.541-8.189,11.531c-6.975,6.579-16.266,10.082-25.824,10.828c-48.879,3.816-84.48-27.941-93.033-36.398  C204.396,294.826,196.156,304.693,188.356,312.492z" fill="#375DAB"/><path d="M138.629,355.443l65.258-60.271c0,0,51.396,45.813,102.731,64.678c3.251,1.194,6.909,0.193,9.182-2.42  c7.214-8.297,22.504-27.356,27.86-45.484l16.405,1.094c0,0,16.851,19.01,31.733,31.301c3.854,3.183,6.677,7.41,7.94,12.246  c6.146,23.523,16.231,94.301-63.159,150.207c-2.545,1.792-5.604,2.709-8.717,2.703c-17.378-0.025-76.74-4.477-125.479-60.294  c0,0-25.552-28.183-55.213-41.36c-10.503-4.667-17.611-14.697-18.647-26.144l0,0C127.633,371.852,131.367,362.15,138.629,355.443z" fill="#FFFFFF"/><path d="M391.799,344.34c-14.883-12.291-31.733-31.301-31.733-31.301l-16.377-1.092l-0.042,0.038  c-5.198,17.548-19.666,35.928-27.121,44.601c7.818,113.326-75.594,105.819-108.834,98.429  c47.655,50.302,103.42,54.456,120.172,54.481c3.113,0.006,6.172-0.911,8.717-2.703c79.391-55.906,69.305-126.684,63.159-150.207  C398.476,351.75,395.652,347.522,391.799,344.34z" fill="#CDE0FF"/><path d="M399.739,356.586c-1.264-4.836-4.087-9.063-7.94-12.246c-14.883-12.291-31.733-31.301-31.733-31.301  l-16.405-1.094c-5.356,18.128-20.646,37.188-27.86,45.484c-1.063,1.223-2.434,2.075-3.919,2.532  c21.161,63.453,19.606,129.354,18.518,149.317c2.213-0.361,4.335-1.186,6.182-2.486  C415.971,450.887,405.885,380.109,399.739,356.586z" fill="#AFC8FF"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="204.3711" x2="153.7395" y1="308.0303" y2="228.2211"><stop offset="0" style="stop-color:#CC5697"/><stop offset="1" style="stop-color:#8E3979"/></linearGradient><path d="M178.944,289.678l20.131-11.424c5.185-2.941,11.729-1.834,15.594,2.704  c6.357,7.464,15.659,19.826,21.771,34.353c3.706,8.811,0.458,19.008-7.75,23.904l0,0c-6.95,4.146-15.745,3.44-21.967-1.735  c-8.288-6.895-20.131-17.256-30.653-28.359C170.491,303.234,171.893,293.681,178.944,289.678z" fill="url(#SVGID_2_)"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" x1="348.3584" x2="366.3793" y1="330.7305" y2="270.6605"><stop offset="0" style="stop-color:#CC5697"/><stop offset="1" style="stop-color:#8E3979"/></linearGradient><path d="M340.279,298.871l0.883,34.443c0.149,5.842,4.573,10.684,10.377,11.358l0,0  c5.25,0.61,10.278-2.342,12.237-7.25c2.038-5.106,4.351-12.01,5.351-19.023c0.475-3.322-0.779-6.652-3.244-8.931  c-3.943-3.643-10.814-9.377-19.633-14.281C343.533,293.676,340.2,295.763,340.279,298.871z" fill="url(#SVGID_3_)"/><path d="M127.982,245.622c21.512,11.911,67.045,45.725,68.608,119.115c0.062,2.874-0.614,5.716-1.893,8.29  c-6.011,12.104-27.357,45.396-82.178,50.643c-4.802,0.46-9.553-1.353-12.804-4.916c-7.421-8.133-23.035-23.4-42.696-32.256  c-5.587-2.518-8.901-8.398-8.186-14.484c2.318-19.721,12.435-60.721,56.096-80.281c5.21-2.334,9.121-6.793,10.609-12.305  c1.755-6.494,3.424-16.064,2.75-27.722C117.993,246.568,123.48,243.129,127.982,245.622z" fill="#EEF5FF"/><path d="M194.698,373.027c1.278-2.574,1.954-5.416,1.893-8.29c-1.527-71.716-45.027-105.628-67.085-118.253  c21.374,28.053,78.9,119.362-35.867,166c2.369,2.325,4.452,4.488,6.078,6.27c3.25,3.563,8.002,5.376,12.804,4.916  C167.342,418.423,188.688,385.132,194.698,373.027z" fill="#C7DAFF"/><path d="M85.634,326.094c1.886-4.138,5.352-8.881,11.721-12.338c0.276-0.15,0.569-0.287,0.865-0.396  c1.295-0.481,5.205-1.787,9.563-1.803c4.678-0.018,7.691,4.988,5.387,9.059c-2.978,5.26-8.988,11.859-20.81,13.891  C87.545,335.332,83.607,330.54,85.634,326.094z" fill="#FFFFFF"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_4_" x1="217.3198" x2="217.3198" y1="119.6138" y2="411.5316"><stop offset="0" style="stop-color:#CC5697"/><stop offset="1" style="stop-color:#8E3979"/></linearGradient><path d="M281.39,47.353L281.39,47.353c0-24.77-20.079-44.849-44.849-44.849l0,0  c-46,0-83.29,37.29-83.29,83.29V220.34c0,9.799,7.943,17.743,17.742,17.743l0,0c9.799,0,17.742-7.944,17.742-17.743v-21.438  c0-4.491,3.641-8.132,8.132-8.132l0,0c4.491,0,8.132,3.641,8.132,8.132v7.64c0,5.987,4.854,10.842,10.843,10.842l0,0  c5.988,0,10.843-4.854,10.843-10.842V150.85C226.685,150.85,225.206,76.43,281.39,47.353z" fill="url(#SVGID_4_)"/><path d="M236.541,2.504L236.541,2.504c-12.177,0-23.73,2.634-34.156,7.33c20.04,4.269,50.212,18.157,39.928,63.346  l6.765,2.704c7.77-11.102,18.228-21.242,32.313-28.531C281.39,22.583,261.311,2.504,236.541,2.504z" fill="#A03774"/><path d="M229.514,179.146c0,0-17.557-7.937-19.373-38.586c-1.274-21.487,5.293-42.817,17.998-60.192  c5.124-7.008,11.768-14.413,20.228-21.042c32.111-25.162,77.159-26.15,110.59-2.77c14.69,10.273,27.934,26.128,32.029,50.513  c0.556,3.309,0.809,6.662,0.947,10.015c0.449,10.92,0.381,33.998-7.376,43.644L229.514,179.146z" fill="#EEF5FF"/><path d="M384.557,160.728c7.757-9.646,7.825-32.724,7.376-43.644c-0.138-3.353-0.392-6.706-0.947-10.015  c-4.096-24.385-17.339-40.239-32.029-50.513c-19.144-13.389-42.091-18.748-64.242-16.192c22.958,9.664,59.604,41.092-33.582,135.025  L384.557,160.728z" fill="#C7DAFF"/><path d="M224.586,119.971c1.164-7.08,5.232-24.78,17.937-36.706c3.222-3.025,8.124-3.415,11.784-0.938l0,0  c4.306,2.914,5.442,8.745,2.549,13.065c-5.39,8.045-14.388,20.531-23.619,29.182c-1.854,1.737-4.689,1.866-6.702,0.315l0,0  C225.026,123.727,224.277,121.85,224.586,119.971z" fill="#FFFFFF"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_5_" x1="336.1582" x2="244.5789" y1="250.7617" y2="109.7161"><stop offset="0.0051" style="stop-color:#FFC3B0"/><stop offset="1" style="stop-color:#E8897B"/></linearGradient><path d="M240.722,187.892l7.761,32.224c1.406,5.843,4.803,11.023,9.647,14.579  c11.676,8.566,36.225,24.784,68.879,36.626c3.857,1.398,7.95,2.045,12.054,2.045h8.435c5.884,0,11.199-3.442,13.6-8.814  c4.793-10.723,12.286-30.813,15.907-57.974L250.98,179.146L240.722,187.892z" fill="url(#SVGID_5_)"/><path d="M265.688,182.347l-2.853,8.726c0,0,36.556,23.462,71.207,37.934c6.821,2.849,11.425,9.374,11.513,16.766  c0.078,6.656-0.201,15.9-1.467,27.594h3.409c5.884,0,11.199-3.442,13.601-8.814c4.792-10.723,12.285-30.814,15.906-57.975  L265.688,182.347z" fill="#E8897B"/><path d="M242.867,168.642c10.202-10.034,47.141-43.836,110.063-74.053c0,0,34.274,34.274,51.623,68.125v16.503  c0,0-16.342,26.915-48.923,47.649c0,0-54.445-10.532-111.532-46.917c-1.571-1.002-2.706-2.587-3.157-4.395l0,0  C240.318,173.064,241.037,170.441,242.867,168.642z" fill="#EEF5FF"/><path d="M296.107,207.307c34.199,14.647,59.523,19.56,59.523,19.56c32.581-20.734,48.923-47.649,48.923-47.649  v-16.503c-14.148-27.605-39.539-55.478-48.431-64.828C356.761,122.464,352.724,186.663,296.107,207.307z" fill="#C7DAFF"/><path d="M404.554,179.217v-16.503c-17.349-33.851-51.623-68.125-51.623-68.125s9.208,51.292,2.7,132.277  C388.212,206.132,404.554,179.217,404.554,179.217z" fill="#819FEA"/><path d="M324.305,139.148c0,0,5.738-5.025,15.42-11.111c0,0,3.372,40.663,0.613,67.334l-15.42-8.481L324.305,139.148  z" fill="#375DAB"/><path d="M301.893,154.366l1.796,21.047l-14.135-8.102C289.554,167.312,298.137,158.823,301.893,154.366z" fill="#375DAB"/><path d="M369.607,134.256c0,0,2.026,28.685,0.336,59.959l9.798-11.249l0.305-37.136L369.607,134.256z" fill="#375DAB"/><path d="M393.798,163.53c-1.344-1.563-2.977-3.399-4.443-4.866v16.238l4.443-5.031V163.53z" fill="#375DAB"/><circle cx="240.721" cy="175.413" fill="#C7DAFF" r="17.503"/><path d="M397.117,261.816c0,0,16.872,31.598-5.126,82.89c-2.442,5.692-1.662,12.251,2.263,17.045  c5.494,6.711,13.889,16.292,22.575,23.686c7.895,6.718,18.821,8.526,28.486,4.775c4.157-1.612,8.777-3.817,13.345-6.812  c4.308-2.822,5.818-8.428,3.557-13.055c-5.569-11.395-18.641-33.754-43.948-56.361c-1.425-1.273-2.311-3.046-2.397-4.954  C415.447,299.656,412.861,270.404,397.117,261.816z" fill="#819FEA"/><path d="M186.541,434.025c17.616-21.152,50.458-58.766,85.93-90.223c-7.133-3.998-14.021-8.217-20.498-12.438  c-10.954,24.433-34.844,57.382-86.932,86.346C173.188,423.01,180.549,428.825,186.541,434.025z" fill="#CDE0FF"/><path d="M291.942,353.762c-3.386-1.554-6.746-3.199-10.073-4.909c-17.385,20.25-57.174,66.259-84.475,95.216  c3.169,3.135,4.99,5.133,4.99,5.133c0.469,0.537,0.943,1.037,1.414,1.563C222.429,427.802,260.499,382.288,291.942,353.762z" fill="#CDE0FF"/></svg>
     </div>
   </section>
   <section class="reviews">
@@ -80,11 +136,27 @@ export default defineComponent({
       barbarian: "#b43c3c",
       alchemist: "#68b43c",
       eyeColor: "#333345",
+      arrowColor: "#774fd4",
+      hovered: false,
+      isDanger: false,
+      topHeight : 0,
+      bottomHeight: 0,
       backgroundImage: '@/assets/adventurePortalMirrr.jpg',
       features: [
-        {id: 1, icon: "sword-shield.svg", subtitle: "Your Weapons", description: "Explore our bazzar of weapons and magical items! Choose between cards, dice, action figures, miniatures, books, keychains, POP figures, you name it!"},
-        {id: 2, icon: "wizard.svg", subtitle: "Your Adventures", description: "Join us on our game nights and let your imagination flow wild. Will you be Valkarr, the brave paladin who vowed to purge all evil creatures? Or Mazikiel, the powerfull wizard who is going to rain ruin upon all the land?"},
-        {id: 3, icon: "book.svg", subtitle: "Your Story", description: "Lose yourself in a plethora of fantastic universes, rangeing from Marvel, DC Comics, Star Wars, Image Comics, Dungeons & Dragons. You decide which road your story will take you on."},
+        {id: 1, icon: "features/sword-shield.svg", subtitle: "Your Weapons", description: "Explore our bazzar of weapons and magical items! Choose between cards, dice, action figures, miniatures, books, keychains, POP figures, you name it!"},
+        {id: 2, icon: "features/wizard.svg", subtitle: "Your Adventures", description: "Join us on our game nights and let your imagination flow wild. Will you be Valkarr, the brave paladin who vowed to purge all evil creatures? Or Mazikiel, the powerfull wizard who is going to rain ruin upon all the land?"},
+        {id: 3, icon: "features/book.svg", subtitle: "Your Story", description: "Lose yourself in a plethora of fantastic universes, rangeing from Marvel, DC Comics, Star Wars, Image Comics, Dungeons & Dragons. You decide which road your story will take you on."},
+      ],
+      imageIndex: 0,
+      images: [
+        {id: 1, imgUrl: 'loja/loja1.jpg'},
+        {id: 2, imgUrl: 'loja/loja2.jpg'},
+        {id: 4, imgUrl: 'loja/loja4.jpg'},
+        {id: 5, imgUrl: 'loja/loja5.jpg'},
+        {id: 6, imgUrl: 'loja/loja6.jpg'},
+        {id: 7, imgUrl: 'loja/loja7.jpg'},
+        {id: 8, imgUrl: 'loja/loja8.jpg'},
+        {id: 9, imgUrl: 'loja/loja9.jpg'},
       ]
     }
   },
@@ -92,15 +164,57 @@ export default defineComponent({
     Review,
     Feature,
   },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+
+    const element = document.querySelector('.advice');
+        
+    this.topHeight = Number(element?.getBoundingClientRect().top);
+    this.bottomHeight = Number(element?.getBoundingClientRect().bottom);
+  },
+  unmounted() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
    computed: {
-      style() :String {
+      getHeight() :String {
+
+
         return `box-shadow:  0 0 40px red;`;
-      }
+      },
     },
     methods: {
       getImgURL(image: String) {
         return require('../assets/' + image);
       },
+       handleScroll () {
+        (window.pageYOffset >= this.topHeight) && (window.pageYOffset <= this.bottomHeight) ? this.isDanger = true : this.isDanger = false;
+        
+        if(this.isDanger) {
+          this.eyeColor = '#FF0000';
+        }
+        
+        else {
+          this.eyeColor = '#333345';
+        }
+      },
+      getNextImage() {
+
+        this.imageIndex++;
+
+        if(this.imageIndex >= this.images.length) {
+          this.imageIndex = 0;
+        }
+
+      },
+      getPreviousImage() {
+
+        if(this.imageIndex <= 0) {
+          this.imageIndex = this.images.length;
+        }
+      
+        this.imageIndex--;
+
+       } 
     }
 });
 </script>
@@ -120,11 +234,11 @@ $textColor: #d1c1f8;
 $textSize: 24px;
 
 section {
-  padding-left: 50px;
-  height: 100vh;
+  padding: 20px 50px 20px 60px;
   background-color: #1c0f22;
   max-width: 100%;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 header {
@@ -149,12 +263,12 @@ header {
       justify-content: center;
       align-items: center;
 
-      li {
+      a {
         padding: 6px 15px;
         margin: 0 10px 0 10px;
         font-family: 'Poppins', sans-serif;
-        color: #ffffff;
         border-radius: 20px;
+        color: #ffffff;
         cursor: pointer;
         transition: all 0.15s ease-out;
 
@@ -162,7 +276,14 @@ header {
           background-color: #ffffff;
           color: #2b1055;
         }
+
+        &.router-link-exact-active {
+          background-color: #ffffff;
+          color: #2b1055;
+        }
       }
+
+      
     }
   }
 }
@@ -170,6 +291,7 @@ header {
 .hero {
   background-color: $backgroundColor;
   overflow: hidden;
+  height: 100vh;
 
   .heroImage {
     position: absolute;
@@ -240,8 +362,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 
-  .knight {
+  .sorceress {
     width: 40%;
   }
 
@@ -255,19 +378,6 @@ header {
     h1 {
       font-size: 54px;
       color: darken($color: $textColor, $amount: 15%);
-
-      &:hover {
-
-      
-
-        &>span {
-          transition: all 0.1s ease-out;
-          font-size: 50px;
-          text-transform: uppercase;
-          color: red;
-          text-shadow:  0 0 40px red;
-        }
-      }
     }
 
     p {
@@ -314,55 +424,15 @@ header {
         fill: $healer;
       }
     }
-    
-  }
-}
 
-
-
-.button {
-
-  text-shadow: 0px 0px;
-  max-width: 300px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  text-transform: uppercase; 
-  padding: 15px;
-  margin: 30px 25px 30px 0px;
-  font-size: 100% + 10%;
-  font-weight: 600;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  background-color: $buttonColor;
-  transition: all 0.5s;
-  z-index: 10;
-
-  &::before {
-    position: absolute;
-    content:"";
-    border-radius: 5px;
-    border-top: 5px solid lighten($buttonColor, 5%);
-    border-left: 5px solid lighten($buttonColor, 5%);	
-    border-right: 5px solid darken($buttonColor, 5%);
-    border-bottom: 5px solid darken($buttonColor, 5%);
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;	
-    transition: 0.5s;
-  }
-
-  &:hover {
-    box-shadow: 7px 7px darken($buttonColor, 10%), -7px -7px lighten($buttonColor, 10%);
-    background-color: $buttonColor;
-    color: #f7f7f7;
-    cursor: pointer;
-
-    &::before {
-      border: 0px;
+    .dangerous {
+      transition: all 0.1s ease-out;
+      font-size: 50px;
+      text-transform: uppercase;
+      color: red;
+      text-shadow:  0 0 40px red;
     }
+    
   }
 }
 
@@ -370,7 +440,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 0px;
+  height: 100vh;
 
   .infoImage {
     position: absolute;
@@ -431,6 +501,85 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .card:nth-last-child() {
+      margin-right: 0;
+    }
+  }
+}
+
+.weapons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .knight {
+    width: 40%;
+    transform: rotateY(180deg);
+  }
+
+  .bazzar {
+    width: 60%;
+
+    h1 {
+      font-size: 54px;
+      color: darken($color: $textColor, $amount: 15%);
+    }
+
+    p {
+      width: 90%;
+      font-size: $textSize;
+      margin-bottom: 10px;
+      color: $textColor;
+
+      .portal {
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        letter-spacing: 0.2px;
+
+        &:hover {
+          color: #0000ff;;
+          text-transform: uppercase;
+
+          svg {
+            fill: #0000ff;
+          }
+        }
+      }
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border-radius: 5px;
+
+      #arrowLeft {
+        transform: rotateY(180deg);
+      }
+
+      img {
+        border-radius: 5px;
+        margin: 30px 20px 0 20px;
+        width: 40vw;
+        overflow: hidden;
+        transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        
+
+        &:hover {
+          transform: scale(1.4);
+        }
+      }
+
+      svg {
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid darken($color: $textColor, $amount: 15%);
+      }
+    }
+    
   }
 }
 
@@ -438,6 +587,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid purple;
 }
 
 .comics {
@@ -475,6 +625,52 @@ header {
   font-family: 'Bangers', cursive;
   font-weight: 100;
   letter-spacing: 1.2px;
+}
+
+.button {
+
+  text-shadow: 0px 0px;
+  max-width: 300px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase; 
+  padding: 15px;
+  margin: 30px 25px 30px 0px;
+  font-size: 100% + 10%;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: $buttonColor;
+  transition: all 0.5s;
+  z-index: 10;
+
+  &::before {
+    position: absolute;
+    content:"";
+    border-radius: 5px;
+    border-top: 5px solid lighten($buttonColor, 5%);
+    border-left: 5px solid lighten($buttonColor, 5%);	
+    border-right: 5px solid darken($buttonColor, 5%);
+    border-bottom: 5px solid darken($buttonColor, 5%);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;	
+    transition: 0.5s;
+  }
+
+  &:hover {
+    box-shadow: 7px 7px darken($buttonColor, 10%), -7px -7px lighten($buttonColor, 10%);
+    background-color: $buttonColor;
+    color: #f7f7f7;
+    cursor: pointer;
+
+    &::before {
+      border: 0px;
+    }
+  }
 }
 
 </style>
