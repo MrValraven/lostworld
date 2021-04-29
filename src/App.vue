@@ -2,7 +2,10 @@
   <router-view/>
 </template>
 
+
+
 <style lang="scss">
+$backgroundColor: #1c0f22;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
@@ -23,6 +26,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   cursor: url("./assets/swordCursor.svg"), auto;
+  background-color: $backgroundColor;
 
   &::-webkit-scrollbar {
     width: 0.5rem;
