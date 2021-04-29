@@ -1,6 +1,19 @@
 <template>
+  <Navbar />
   <router-view/>
 </template>
+
+<script>
+
+import Navbar from '@/components/Navbar.vue'
+
+export default {
+  components: {
+    Navbar,
+  }
+}
+
+</script>
 
 
 
@@ -13,7 +26,8 @@ $backgroundColor: #1c0f22;
 
 #app {
   
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;

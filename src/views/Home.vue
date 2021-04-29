@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <section class="hero">
     <div class="heroImage">
       <img src="@/assets/adventurePortalMirror.jpg" alt="">
@@ -234,53 +233,6 @@ section {
   max-width: 100%;
   overflow-x: hidden;
   height: 100vh;
-}
-
-header {
-  position: absolute;
-	z-index: 10;
-	width: 100%;
-	opacity: 1;
-	color: #fff;
-	padding-top: 25px;
-
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    div:first-child {
-      margin-right: 200px;
-    }
-    
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      a {
-        padding: 6px 15px;
-        margin: 0 10px 0 10px;
-        font-family: 'Poppins', sans-serif;
-        border-radius: 20px;
-        color: #ffffff;
-        cursor: pointer;
-        transition: all 0.15s ease-out;
-
-        &:hover {
-          background-color: #ffffff;
-          color: #2b1055;
-        }
-
-        &.router-link-exact-active {
-          background-color: #ffffff;
-          color: #2b1055;
-        }
-      }
-
-      
-    }
-  }
 }
 
 .hero {

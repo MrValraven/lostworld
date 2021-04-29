@@ -70,4 +70,10 @@ header {
     }
   }
 }
+
+.lostworld {
+  font-family: 'Bangers', cursive;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+}
 </style>
