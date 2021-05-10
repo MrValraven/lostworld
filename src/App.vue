@@ -18,7 +18,7 @@ export default {
 
 
 <style lang="scss">
-$backgroundColor: #1c0f22;
+$backgroundColor: #100c18;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');

@@ -1,7 +1,7 @@
 <template>
     <router-link  class="card" to="/">
         <li>
-            <img :src="icon" alt="">
+            <slot></slot>
             <h1 class="quote"> {{ title }} </h1>
             <p class="author"> {{ description }} </p>
 	    </li>
@@ -25,12 +25,14 @@ export default defineComponent({
 $primaryColor: #8448a0;
 $textColor: #774fd4;
 $textColor1: #d1c1f8;
-$backgroundColor: #1c0f22;
+$backgroundColor: #100c18;
+$neonPurple: #ab20fd;
+
 .card{
 	padding: 20px;
 	margin: 10px 20px 10px 10px;
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
     z-index: 120;
     border: 2px solid $textColor;
@@ -47,6 +49,14 @@ $backgroundColor: #1c0f22;
 
     &:hover {
         transform: translateY(-10px);
+
+        svg {
+            fill: darken($color: $textColor1, $amount: 18%);
+        }
+
+        h1 {
+            color: darken($color: $textColor1, $amount: 18%);
+        }
     }
 
     li {
@@ -57,12 +67,14 @@ $backgroundColor: #1c0f22;
         text-align: center;
     }
 
-    img {
+    svg {
         height: 100px;
-        color: darken($color: $textColor1, $amount: 28%) ;
+        fill: darken($color: $textColor1, $amount: 28%);
         margin-bottom: 25px;
         z-index: 120;
+        transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
+
     h1 {
         font-size: 20px;
         margin-bottom: 25px;
@@ -72,7 +84,9 @@ $backgroundColor: #1c0f22;
     p {
         margin: 0;
         z-index: 120;
+        text-align: left;
         color: $textColor1;
+        hyphens: auto;
     }
 }
 </style>
