@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <div class="heroImage">
-      <img src="@/assets/adventurePortalMirror.jpg" alt="">
+      <img src="@/assets/adventurePortal.jpg" alt="">
     </div>
     <div class="heroContent">
       <h1>Lost World</h1>
@@ -242,6 +242,8 @@ export default defineComponent({
   name: 'Home',
   data() {
     return {
+      windowX: 0,
+      windowY: 0,
       knight: "#774fd4",
       rogue: "#2c6e8d",
       ranger: "#ad3b7a",
@@ -278,10 +280,11 @@ export default defineComponent({
     Feature,
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
 
     const element = document.querySelector('.advice');
-        
+
+    window.addEventListener('scroll', this.handleScroll);
+
     this.topHeight = Number(element?.getBoundingClientRect().top);
     this.bottomHeight = Number(element?.getBoundingClientRect().bottom);
   },
@@ -348,7 +351,7 @@ $textColor: #d1c1f8;
 $textSize: 24px;
 
 section {
-  padding: 20px 50px 20px 60px;
+  padding: 20px 50px 20px 50px;
   background-color: $backgroundColor;
   max-width: 100%;
   overflow-x: hidden;
@@ -356,9 +359,12 @@ section {
 }
 
 .hero {
-  background-color: $backgroundColor;
+  background: transparent;
   overflow: hidden;
   height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 
   .heroImage {
     position: absolute;
@@ -366,15 +372,16 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: -1;
     overflow: hidden;
 
     img {
-      margin-left: 12%;
       height: 100vh;
       max-width: 100%;
-      z-index: 1;
+      z-index: -1;
       overflow: hidden;
+      transform: rotateY(180deg);
+      filter: grayscale(20%);
       
     }
 
@@ -392,27 +399,34 @@ section {
   }
 
   .heroContent {
-    height: 100vh;
+    width: 30vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-shadow: 2px 2px black;
-    z-index: 10;
+    background-color: $backgroundColor;
+    padding: 10px;
+    padding-bottom: 60px;
+    clip-path: polygon(11% 1%, 2% 1%, 1% 11%, 2% 21%, 3% 29%, 3% 38%, 1% 50%, 3% 59%, 1% 69%, 2% 79%, 0 90%, 3% 98%, 9% 100%, 19% 99%, 26% 98%, 35% 99%, 42% 99%, 49% 97%, 56% 99%, 66% 96%, 74% 99%, 83% 98%, 91% 98%, 97% 98%, 98% 89%, 97% 80%, 98% 72%, 98% 64%, 98% 56%, 98% 48%, 98% 42%, 98% 38%, 99% 32%, 98% 25%, 98% 19%, 98% 11%, 98% 7%, 98% 4%, 92% 1%, 85% 0, 70% 2%, 63% 1%, 57% 1%, 50% 1%, 42% 0%, 34% 1%, 26% 5%, 19% 2%, );
+    border: 2px solid red;
 
     h1 {
       font-size: 68px;
+      padding-top: 30px;
+      padding-left: 20px;
       margin: 0;
-      z-index: 10;
-      width: 33%;
       color: lighten($color: $textColor, $amount: 4%);
+      text-align: center;
       font-family: 'Bangers', cursive;
       font-weight: 100;
     }
 
     p {
       font-size: 24px;
-      width: 33%;
       margin-bottom: 10px;
+      padding-left: 20px;
       color: lighten($color: $textColor, $amount: 4%);
       z-index: 10;
     }
